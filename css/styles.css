@@ -26,6 +26,7 @@ ul {
   --logo-color: #4d5ae5;
   --background-main: #2e2f42;
   --color-text: #2e2f42;
+  --bg-gradient: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7));
 }
 
 body {
@@ -69,7 +70,6 @@ body {
   color: var(--logo-color);
   margin-right: 76px;
   display: inline-block;
-  
 }
 
 .logo-studio {
@@ -93,20 +93,16 @@ body {
   margin-right: auto;
 }
 
-.navigation-section{
+.navigation-section {
   color: #2e2f42;
   padding: 24px 0;
 }
 .navigation-section:is(:hover, :focus) {
   color: var(--second-link-color);
-
-  
-  
 }
 .header-list {
   display: flex;
   gap: 40px;
-  
 }
 .contact {
   display: flex;
@@ -125,7 +121,6 @@ body {
 
 .header-contact:is(:hover, :focus) {
   color: var(--second-link-color);
-  
 }
 .adress {
   font-style: normal;
@@ -149,7 +144,12 @@ body {
   background-color: var(--background-main);
   padding: 188px 0;
   text-align: center;
+  background-image: var(--bg-gradient), url(../images/people-office.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
 .hero-h {
   max-width: 496px;
   font-size: 56px;
@@ -157,7 +157,7 @@ body {
   text-align: center;
   letter-spacing: 0.02em;
   color: var(--body-background-color);
-  background-color: var(--color-text);
+  /* background-color: var(--color-text); */
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 48px;
@@ -176,7 +176,7 @@ body {
   border: none;
   margin: 0 auto;
   display: block;
-  min-width: 169px
+  min-width: 169px;
 }
 .hero-btn:is(:hover, :focus) {
   background-color: #404bbf;
@@ -191,6 +191,15 @@ body {
   color: var(--color-text);
   margin-bottom: 8px;
 }
+/* .test::before {
+  content:"";
+  display: inline-block;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+  border-radius: 4px;
+
+} */
 
 .text-picture-bottom {
   box-sizing: border-box;
@@ -201,10 +210,10 @@ body {
 
 .hero-p {
   font-weight: 400;
-  min-width: 264px;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+
 }
 .hero-heading-third {
   font-size: 36px;
@@ -227,13 +236,12 @@ body {
 
 .hero-photo {
   background-color: var(--second-footer-color);
-  padding:120px 0 ;
-  
+  padding: 120px 0;
 }
 .hero-finish-text {
   background-color: var(--body-background-color);
   border-radius: 0px 0px 4px 4px;
-  width:calc((100% - 72px) / 4); ;
+  width: calc((100% - 72px) / 4);
 }
 
 /**--------------------HERO BTN------------------**/
@@ -271,7 +279,6 @@ body {
   letter-spacing: 0.02em;
   color: #2e2f42;
   margin-bottom: 8px;
-  
 }
 
 .hero-main-bottom {
@@ -280,7 +287,6 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
-
 }
 
 .hero-img {
@@ -290,8 +296,6 @@ body {
   row-gap: 48px;
   column-gap: 24px;
 }
-
-
 
 /**--------------------SECTION------------------**/
 
@@ -306,9 +310,9 @@ body {
 .section-second {
   padding: 120px 0;
 }
+
 .sectiom-third {
   padding-bottom: 120px;
-  
 }
 .last-section {
   display: flex;
@@ -322,9 +326,8 @@ body {
   background-color: var(--body-background-color);
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-    border-radius: 0px 0px 4px 4px;
+  border-radius: 0px 0px 4px 4px;
 }
-
 
 /**--------------------FOOTER------------------**/
 
@@ -332,7 +335,6 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #2e2f42;
-  
 }
 
 .footer-bottom {
@@ -343,7 +345,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: var(--second-footer-color);
-  width: 264px; 
+  width: 264px;
   margin-top: 17px;
 }
 .footer-link {
@@ -372,3 +374,25 @@ body {
 /* .foot-txt {
   padding-top: 100px;
 } */
+
+/* -------------------------SVG1----------------------- */
+.svg {
+  width: 64px;
+
+  height: 64px;
+
+  padding: 24px 100px;
+}
+.test2 {
+  position: absolute;
+  left: 3.35%;
+  right: 3.35%;
+  top: 0%;
+  bottom: 0%;
+}
+.test3 {
+  width: 264px;
+  height: 112px;
+  background: var(--second-footer-color);
+  margin-bottom: 8px;
+}
