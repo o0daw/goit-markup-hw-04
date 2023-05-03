@@ -455,6 +455,9 @@ body {
 /* .foot-txt {
   padding-top: 100px;
 } */
+.footer-p {
+  text-align: center;
+}
 
 .foot-soc-icon {
 
