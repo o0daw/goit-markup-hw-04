@@ -376,7 +376,6 @@ body {
   gap: 24px;
 }
 
-
 .customers-item {
   box-sizing: border-box;
   border: 1px solid #8e8f99;
@@ -384,28 +383,22 @@ body {
   width: 168px;
   height: 88px;
   padding: 16px 32px;
-
 }
 .customers-item:hover {
   border: 1px solid #404bbf;
-
 }
 
 .customers-svg {
-  fill: #8E8F99;
-
+  fill: #8e8f99;
 }
 .customers-item:hover > .customers-svg {
   fill: #404bbf;
-} 
-
+}
 
 /* -------------------------SVG1----------------------- */
 
 .test {
 }
-
-
 
 .top-items {
   display: flex;
@@ -430,7 +423,6 @@ body {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #2e2f42;
-  
 }
 
 .footer-bottom {
@@ -466,23 +458,19 @@ body {
 }
 
 .footer-p {
-  
-  font-family: 'Roboto';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 1.5;
-padding-bottom: 16px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  padding-bottom: 16px;
 
+  letter-spacing: 0.02em;
 
-letter-spacing: 0.02em;
-
-color: #FFFFFF;
-  
+  color: #ffffff;
 }
 
 .foot-soc-icon {
-
 }
 
 .foot-soc-list {
@@ -491,6 +479,4 @@ color: #FFFFFF;
 }
 .soc-link {
   margin-left: 120px;
-  
-
 }
