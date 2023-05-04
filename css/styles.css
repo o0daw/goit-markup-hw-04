@@ -391,9 +391,13 @@ body {
 
 }
 
-.hover-svg:hover {
-  
+.customers-svg {
+  fill: #8E8F99;
+
 }
+.customers-item:hover > .customers-svg {
+  fill: #404bbf;
+} 
 
 
 /* -------------------------SVG1----------------------- */
@@ -401,13 +405,8 @@ body {
 .test {
 }
 
-.test2 {
-  /* position: absolute;
-  left: 3.35%;
-  right: 3.35%;
-  top: 0%;
-  bottom: 0%; */
-}
+
+
 .top-items {
   display: flex;
   gap: 24px;
