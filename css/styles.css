@@ -373,7 +373,7 @@ body {
 }
 
 
-.team-soc-link.hero-btn:is(:hover, :focus) {
+.team-soc-link:is(:hover, :focus) {
   background-color: #404bbf;
   fill: #f4f4fd;
 }
