@@ -487,7 +487,7 @@ body {
   color: #ffffff;
 }
 
-.foot-soc-icon:hover {
+.foot-soc-icon {
   
 }
 
@@ -508,6 +508,6 @@ body {
     fill: #f4f4fd;
     background-color: var(--logo-color);
 }
-.team-soc-link-foot:hover {
+.team-soc-link-foot:is(:hover, :focus) {
   background-color: #31d0aa;
 }
