@@ -357,6 +357,7 @@ body {
 .team-soc-item {
   width: 40px;
   height: 40px;
+
 }
 .team-soc-link {
   width: 100%;
@@ -367,6 +368,8 @@ body {
   align-items: center;
   justify-content: center;
   fill: #f4f4fd;
+  background-color: #31d0aa;
+
 }
 
 .team-soc-link:hover {
@@ -426,12 +429,17 @@ body {
 
 .fott-container {
   display: flex;
+  align-items: baseline
 }
 
 .foot {
   padding-top: 100px;
   padding-bottom: 100px;
   background: #2e2f42;
+}
+.foot-txt {
+  margin-right: 120px;
+
 }
 
 .footer-bottom {
@@ -441,7 +449,8 @@ body {
   letter-spacing: 0.02em;
   color: var(--second-footer-color);
   width: 264px;
-  /* margin-top: 17px; */
+  margin-bottom: 16px
+
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
