@@ -396,10 +396,8 @@ border-radius: 4px;
 }
 
 .customers-item {
-  /* box-sizing: border-box; */
   width: 168px;
   height: 88px;
-  /* padding: 16px 32px; */
 }
 .customers-item:hover {
   border: 1px solid #404bbf;
