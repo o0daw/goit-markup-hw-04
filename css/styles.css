@@ -397,8 +397,8 @@ border-radius: 4px;
 
 .customers-item {
   box-sizing: border-box;
-  width: 168px;
-  height: 88px;
+  /* width: 168px;
+  height: 88px; */
   padding: 16px 32px;
 }
 .customers-item:hover {
