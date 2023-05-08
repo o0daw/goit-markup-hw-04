@@ -424,6 +424,7 @@ border-radius: 4px;
 
 
 .customers-svg {
+  fill: currentColor;
   fill: #8e8f99;
 }
 .customers-item:hover > .customers-svg {
