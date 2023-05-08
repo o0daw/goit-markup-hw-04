@@ -397,8 +397,6 @@ border-radius: 4px;
 
 .customers-item {
   box-sizing: border-box;
-  /* border: 1px solid #8e8f99; */
-  /* border-radius: 4px; */
   width: 168px;
   height: 88px;
   padding: 16px 32px;
@@ -425,7 +423,7 @@ border-radius: 4px;
 
 .customers-svg {
   fill: currentColor;
-  fill: #8e8f99;
+  
 }
 .customers-item:hover > .customers-svg {
   fill: #404bbf;
