@@ -418,7 +418,8 @@ border-radius: 4px;
 
 }
 .customer-company-logo:is(:hover, :focus) {
-  
+  color: #404bbf;
+  border-color: #404bbf;
 }
 
 
